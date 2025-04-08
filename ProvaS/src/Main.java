@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        int tamanho;
         System.out.println("informe a quantidade de notas: ");
-        int tamanho = scanner.nextInt();
+        tamanho = scanner.nextInt();
 
         double mediaMinima = 6;
+        double notaminima = 5;
 
         float[] notas1 = new float[tamanho];
         float soma = 0;
@@ -17,16 +18,17 @@ public class Main {
             soma += notas1[i];
         }
 
-            double media = (double) soma / tamanho;
+        double media = soma / tamanho;
 
-            if (media >= mediaMinima) {
-                System.out.println("Aluno APROVADO!");
-            } else {
-                System.out.println("Aluno REPROVADO!");
-            }
+        if (media >= mediaMinima){
+            System.out.println("Aluno APROVADO!");
+        } else if (media >= notaminima){
+            System.out.println("Ainda consegue recuperar");
+        } else {
+            System.out.println("Aluno REPROVADO!");
+        }
 
-            System.out.println("a media do aluno e: " + media);
-
+        System.out.println("a media do aluno e: " + media);
 
 
     }
