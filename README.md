@@ -59,6 +59,7 @@ Comparações lógicas usadas:
 Essas preposições simulam o raciocínio lógico-matemático aplicado na programação.
 
 💻 Como executar
+
 Pré-requisitos:
 Java JDK 8 ou superior
 
