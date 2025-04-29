@@ -47,6 +47,7 @@ if (media >= mediaMinima) {
     System.out.println("Aluno REPROVADO!");
 }
 
+
 Comparações lógicas usadas:
 
 • ≥ (maior ou igual)
