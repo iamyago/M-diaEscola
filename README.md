@@ -5,7 +5,7 @@ Este projeto é um programa simples em Java que solicita notas de um aluno, calc
 
 ---
 
-## 📋 Descrição
+## Descrição
 
 O programa executa as seguintes etapas:
 1. Solicita ao usuário a **quantidade de provas** (notas) que serão inseridas.
